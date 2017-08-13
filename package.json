@@ -1,0 +1,29 @@
+{
+  "name": "anyleads",
+  "version": "0.1",
+  "description": "Tiny node wrapper of Anyleads's API",
+  "main": "index.js",
+  "repository": "https://github.com/Muzishell/anyleads-nodejs.git",
+  "author": "Muzishell",
+  "license": "MIT",
+  "scripts": {
+    "yolo": "BABEL_ENV=node babel-node ./testingLikeAMofo",
+    "eslint": "eslint ./lib/index.js"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "debug": "^3.0.0",
+    "request": "^2.81.0"
+  },
+  "keywords": [
+    "anyleads",
+    "email",
+    "wrapper",
+    "api",
+    "rest"
+  ],
+  "bugs": {
+    "url": "https://github.com/Muzishell/anyleads-nodejs/issues"
+  },
+  "homepage": "https://github.com/Muzishell/anyleads-nodejs"
+}
