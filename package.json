@@ -1,6 +1,6 @@
 {
   "name": "anyleads",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tiny node wrapper of Anyleads's API",
   "main": "index.js",
   "repository": "https://github.com/Muzishell/anyleads-nodejs.git",
