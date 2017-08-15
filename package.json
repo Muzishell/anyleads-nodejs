@@ -13,60 +13,7 @@
   "dependencies": {
     "co": "^4.6.0",
     "debug": "^3.0.0",
-    "eslint": "^4.4.1",
-    "eslint-config-airbnb": "^15.1.0",
     "request": "^2.81.0"
-  },
-  "eslintConfig": {
-    "parser": "babel-eslint",
-    "extends": "airbnb/base",
-    "env": {
-      "node": true,
-      "mocha": true,
-      "es6": true
-    },
-    "rules": {
-      "func-names": 0,
-      "no-param-reassign": [
-        "error",
-        {
-          "props": false
-        }
-      ],
-      "arrow-body-style": [
-        "error",
-        "always"
-      ],
-      "class-methods-use-this": 0,
-      "import/no-extraneous-dependencies": [
-        "error",
-        {
-          "devDependencies": [
-            "**/*.test.js"
-          ]
-        }
-      ],
-      "import/prefer-default-export": 0,
-      "import/order": [
-        "error",
-        {
-          "newlines-between": "ignore"
-        }
-      ]
-    }
-  },
-  "keywords": [
-    "anyleads",
-    "email",
-    "wrapper",
-    "api",
-    "rest"
-  ],
-  "bugs": {
-    "url": "https://github.com/Muzishell/anyleads-nodejs/issues"
-  },
-  "devDependencies": {
-    "babel-eslint": "^7.2.3"
   },
   "homepage": "https://github.com/Muzishell/anyleads-nodejs"
 }

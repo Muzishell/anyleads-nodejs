@@ -18,7 +18,7 @@ The `--save` automatically adds the module to your `package.json` definition.
 
 You require the module as any other node.js module:
 ```js
-import Anyleads from 'anyleads';
+var Anyleads = require('anyleads');
 ```
 Then create a new instance with your API key
 ```js
